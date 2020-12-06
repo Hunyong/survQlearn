@@ -6,14 +6,14 @@ dynamic treatment regime estimation for survival outcomes with dependent censori
 The simulations are designed to be run in R 3.5.2.  
 
 R packages such as survival, randomForestSRC, DTRreg, dtrSurv, tidyverse, and cowplot (for figures) should be installed before running.  
-# install.packages("survival")  
-# install.packages("randomForestSRC")  
-# install.packages("DTRreg")  
-# install.packages("dtrSurv")  
-# install.packages("dplyr")  
-# install.packages("tidyr")  
-# install.packages("ggplot2")  
-# install.packages("cowplot")  
+`install.packages("survival")`  
+`install.packages("randomForestSRC")`  
+`install.packages("DTRreg")`  
+`install.packages("dtrSurv")`  
+`install.packages("dplyr")`  
+`install.packages("tidyr")`  
+`install.packages("ggplot2")`  
+`install.packages("cowplot")`  
 
 For cluster computing, run the bash script `S2value.sh` to submit all jobs implementing each simulation setting on Slurm.  
 
