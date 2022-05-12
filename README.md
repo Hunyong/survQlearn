@@ -28,3 +28,7 @@ Once all simulations are implemented, update the `lab.date` in `C22.summary.R` a
 
 ## 2. Leukemia data analysis  
 The leukemia data are not publicly available, and the code (`L1`, `L2`, `LF`) is provided for transparency.  
+
+## 3. ARIC data analysis  
+The ARIC data are available through `https://sites.cscc.unc.edu/aric/distribution-agreements`. The code `R1` is for data preprocessing (`R1.R`, `R1_2.R`, `R1_3.R` in the order), `R2` is for application of the method and the competitors, and `R3` is for graphical illustration of the results obtained in `R2`.  
+
