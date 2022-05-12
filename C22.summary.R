@@ -52,7 +52,6 @@ method.nm.formal =
         method = factor(method, levels = method.nm.simple, labels = method.nm.abc),
         setting = factor(beta, levels = c(1,3,4,2), # reordering so that high censoring comes last.
                           labels = c("1" = "moderate censoring rate\n d = 5",
-                                     # "2" = "Pr(C)\u2191", 
                                      "3" = "moderate censoring rate\n d = 2", 
                                      "4" = "moderate censoring rate\n d = 10",
                                      "2" = "high censoring rate\n d = 5")), 
