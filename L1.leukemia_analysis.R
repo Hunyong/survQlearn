@@ -1,6 +1,6 @@
 library(caret); library(purrr); library(dplyr); library(survival)
 library(DTRreg); library(randomForestSRC); library(dtrSurv)
-source("LF.leukemia_analysis_helper.R")  # All the library and source files
+source("LF.helper.R")  # All the library and source files
 source("F00.generic.R")
 source("F21.GK1.R")
 source("F21.GK2.R")
@@ -34,7 +34,7 @@ form1 <- Surv(T, delta) ~ A + age + cyto + prevTime + prevA + response
 
 
 ### 1. data preprocessing
-leukemia <- sas7bdat::read.sas7bdat("data/leukemia_xh.sas7bdat")
+leukemia <- sas7bdat::read.sas7bdat("../data_Leukemia/leukemia_xh.sas7bdat")
 dat.leuk <-
   leukemia %>% 
   transmute(T.0 = T0,

@@ -68,5 +68,5 @@ for (crit1 in c("mean", "surv.mean")) {
 }
 
 p2 <- plot_grid(p[[1]], p[[2]], align = "h", nrow = 1)
-save_plot(paste0("figure_leuk/leuk_", date,".eps"), p2, base_height = 7, base_width = 13)
-save_plot(paste0("figure_leuk/leuk.eps"), p2, base_height = 7, base_width = 13)
+save_plot(paste0("figure/leuk_", date,".eps"), p2, base_height = 4, base_width = 13)
+save_plot(paste0("figure/leuk.eps"), p2, base_height = 4, base_width = 13)
